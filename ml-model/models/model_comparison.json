@@ -1,0 +1,68 @@
+[
+  {
+    "model": "1. Basic CNN",
+    "config": "basic",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "training_accuracy": 0.2211,
+    "validation_accuracy": 0.0714,
+    "test_accuracy": 0.0714,
+    "test_loss": 2.6637,
+    "training_time_sec": 74.14
+  },
+  {
+    "model": "2. CNN with L1 Regularization",
+    "config": "l1",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "training_accuracy": 0.2058,
+    "validation_accuracy": 0.0873,
+    "test_accuracy": 0.0714,
+    "test_loss": 3.045,
+    "training_time_sec": 70.43
+  },
+  {
+    "model": "3. CNN with L2 Regularization",
+    "config": "l2",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "training_accuracy": 0.2041,
+    "validation_accuracy": 0.1429,
+    "test_accuracy": 0.1429,
+    "test_loss": 2.6527,
+    "training_time_sec": 74.06
+  },
+  {
+    "model": "4. CNN with Dropout (0.35)",
+    "config": "dropout",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "training_accuracy": 0.1769,
+    "validation_accuracy": 0.0714,
+    "test_accuracy": 0.0714,
+    "test_loss": 2.6539,
+    "training_time_sec": 74.91
+  },
+  {
+    "model": "Hyperparameter: LR=1e-4 (Dropout CNN)",
+    "config": "dropout",
+    "learning_rate": 0.0001,
+    "batch_size": 32,
+    "training_accuracy": 0.1514,
+    "validation_accuracy": 0.0714,
+    "test_accuracy": 0.0714,
+    "test_loss": 2.6455,
+    "training_time_sec": 69.46
+  },
+  {
+    "model": "Hyperparameter: Batch=16 (Dropout CNN)",
+    "config": "dropout",
+    "learning_rate": 0.001,
+    "batch_size": 16,
+    "training_accuracy": 0.1429,
+    "validation_accuracy": 0.0714,
+    "test_accuracy": 0.0714,
+    "test_loss": 2.7066,
+    "training_time_sec": 72.18
+  }
+]

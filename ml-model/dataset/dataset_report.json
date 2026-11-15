@@ -1,0 +1,95 @@
+{
+  "total_raw": 840,
+  "valid_images": 840,
+  "corrupt_images": 0,
+  "duplicates_removed": 0,
+  "train_count": 588,
+  "val_count": 126,
+  "test_count": 126,
+  "per_class": {
+    "Apple___Apple_scab": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Apple___Black_rot": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Apple___healthy": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Corn___Common_rust": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Corn___Northern_Leaf_Blight": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Corn___healthy": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Grape___Black_rot": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Grape___healthy": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Potato___Early_blight": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Potato___Late_blight": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Potato___healthy": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Tomato___Early_blight": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Tomato___Late_blight": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    },
+    "Tomato___healthy": {
+      "total": 60,
+      "train": 42,
+      "val": 9,
+      "test": 9
+    }
+  }
+}
