@@ -22,6 +22,43 @@ An end-to-end, full-stack agricultural pathology diagnostic platform powered by 
 
 ---
 
+## 🎬 Application Demo & Visual Walkthrough
+
+Watch the complete demonstration video below or view the animated walkthrough:
+
+### 📹 Full Video Demonstration
+> 🎥 **Download / Play High-Definition Video:** [`docs/videos/plantcare_ai_demo.webm`](docs/videos/plantcare_ai_demo.webm)  
+> *Recorded in 720p HD covering the complete user lifecycle: Registration $\to$ Dashboard $\to$ Leaf Image Upload $\to$ CNN Pathology Inference $\to$ Integrated Pest Management Recommendations $\to$ History Records.*
+
+### 🎞️ Animated Walkthrough
+![PlantCare AI Demo Walkthrough](docs/videos/plantcare_ai_walkthrough.gif)
+
+---
+
+## 📸 Screenshots Gallery
+
+| 1. Landing Page (Hero & Call to Action) | 2. Full Landing & Architecture Overview |
+| :---: | :---: |
+| ![Landing Page](docs/screenshots/01_landing_hero.png) | ![Landing Features](docs/screenshots/01_landing_fullpage.png) |
+
+| 3. User Authentication & Registration | 4. Real-Time Epidemiological Dashboard |
+| :---: | :---: |
+| ![Registration](docs/screenshots/02_register_account.png) | ![Dashboard](docs/screenshots/03_dashboard_analytics.png) |
+
+| 5. Foliar Leaf Upload & Drag-and-Drop | 6. Instant CNN Pathology Diagnosis |
+| :---: | :---: |
+| ![Leaf Upload](docs/screenshots/04_disease_detection_upload.png) | ![Diagnosis Result](docs/screenshots/05_diagnosis_result_recommendations.png) |
+
+| 7. Integrated Pest Management (IPM) Prescriptions | 8. Historical Diagnosis Timeline |
+| :---: | :---: |
+| ![IPM Protocols](docs/screenshots/05_diagnosis_protocols.png) | ![History](docs/screenshots/06_detection_history.png) |
+
+| 9. Model Architecture & Live Evaluation | 10. Technical Stack & About Page |
+| :---: | :---: |
+| ![Model Info](docs/screenshots/07_model_architecture_info.png) | ![About PlantCare AI](docs/screenshots/08_about_project.png) |
+
+---
+
 ## 🏗️ System Architecture
 
 ```
@@ -158,9 +195,12 @@ pytest ml-model/tests/ -v
 # Frontend UI & Component tests (4 Test Cases)
 cd frontend
 npm run test
+
+# Browser End-to-End Test (Full User Journey)
+npx playwright test
 ```
 
-All 20 test cases pass with a **100% success rate**. Refer to `docs/testing-report.md` for full test execution logs.
+All 21 test cases pass with a **100% success rate**. Refer to `docs/testing-report.md` for full test execution logs.
 
 ---
 
